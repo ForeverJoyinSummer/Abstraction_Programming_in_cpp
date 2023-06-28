@@ -1,0 +1,45 @@
+Before submitting this file, make sure that there are no more TODO
+placeholders remaining in the file (and remove this comment too).
+
+Fundamentals Warmup
+------
+Q1. Looking at a call stack listing in a debugger, what is the indication that the program being debugged uses recursion?
+A1. TODO
+
+Q2. Subtract the innermost level number from the outermost to get the maximum count of stack frames that fit in the capacity of the call stack. How many stack frames fit in your system's call stack?
+A2. TODO
+
+Q3. Describe how the symptoms of infinite recursion differ from the symptoms of an infinite loop.
+A3. TODO
+
+Q4. What is the pattern to which values of base number and exponent result in a test failure?
+A4. TODO
+
+Q5. Of the existing five cases, are there any that seem redundant and can be removed from the function? Which do you think are absolutely necessary? Are there any cases that you're unsure about?
+A5. TODO
+
+Balanced Operators
+------
+Q6. Compare your recursive solution to the iterative approach used for the Check Balance problem in Section 1. Which version do you find easier to read and understand? In which version did you find it easier to confirm the correct behavior?
+A6. TODO
+
+Merge Sorted Sequences
+------
+Q7. Give a rough estimate of the maximum length sequence that could be successfully merged on your system assuming a recursive implementation of binaryMerge.
+A7. TODO
+
+Q8. What would be the observed behavior if attempting to recursively merge a sequence larger than that maximum?
+A8. TODO
+
+Q9. Include the data from your execution timing and explain how it supports your Big O prediction for binaryMerge.
+A9. TODO
+
+Q10. Include the data from your execution timing and explain how it supports your Big O prediction for naiveMultiMerge.
+A10. TODO
+
+Q11. Include the data from your execution timing and explain how it demonstrates O(n log k) runtime for recMultiMerge.
+A11. TODO
+
+Q12. You run recMultiMerge on a sequence of size 1 million and see that it completes just fine. Explain why this is not running afoul of the call stack capacity limitation. Hint: How many stack frames (levels) are expected to be on the call stack at the deepest point in the recursion in recMultiMerge?
+A12. TODO
+
