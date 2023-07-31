@@ -1,0 +1,16 @@
+#include <iostream>
+#include "console.h"
+#include "SimpleTest.h"
+using namespace std;
+
+// You are free to edit the main in any way that works
+// for your testing/debugging purposes.
+
+int main()
+{
+    if (runSimpleTests(SELECTED_TESTS)) {
+        return 0;
+    }
+    cout << "All done, exiting" << endl;
+    return 0;
+}
